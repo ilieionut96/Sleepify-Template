@@ -1,0 +1,102 @@
+@media only screen and (max-width: 420px) {
+    .nav-links {
+        display: none;
+    }
+    #logo {
+        margin: 10px auto;
+    }
+    .home {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-text h2 {
+        font-size: 3rem;
+    }  
+    .home-text p {
+        font-size: 1.1rem;
+    }
+    .buttons {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-btn {
+        margin-top: 10px;
+    }
+    .home-img img {
+        width: 200px;
+        margin-top: 40px;
+    }
+
+    .container {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .about-img img {
+        width: 150px;
+    }
+    .about-text {
+        margin: 1px;
+    }
+    .about-text .about-title {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .about-text .border {
+        width: 10rem;
+        height: 5px;
+        margin-bottom: 3.2rem;
+    }
+    
+    #options header h2 {
+        font-size: 1.5rem;
+    }
+    #options header .border {
+        width: 15rem;
+    }
+
+    .cards {    
+        margin: 0 auto;
+        width: 90%;
+        -ms-grid-columns: minmax(14rem, 1fr) [auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        grid-gap: 2rem;
+    }
+      .cards .card h3 {
+        font-size: 1rem;
+    } 
+      .cards .card p {
+        color:#192a56;
+    }
+    #reviews header h2 {
+        font-size: 2rem;
+    } 
+    #reviews header .border {
+        width: 15rem;
+        height: 3px;
+        background:  #eb2f06;
+    }
+}   

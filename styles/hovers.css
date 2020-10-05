@@ -1,0 +1,19 @@
+.nav-btn:hover {
+    box-shadow: 0px 0px 17px #eb2f06;
+}
+  
+.nav-links a:hover {
+    font-weight: bolder;
+}
+
+.home-text .download-btn:hover {
+    box-shadow: 1px 6px 17px #eb2f06;
+}
+
+.home-text .about-btn:hover {
+    box-shadow: 1px 6px 17px #192a56;
+}
+
+.about-text .download-btn:hover {
+    box-shadow: 1px 6px 16px #eb2f06;
+}

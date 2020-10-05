@@ -1,0 +1,38 @@
+.home-img  {
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    -webkit-animation: sleep-effect 2s ease-in-out infinite alternate;
+    animation: sleep-effect 2s ease-in-out infinite alternate;
+}
+
+.about-img img {
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    -webkit-animation: sleep-effect 2s ease-in-out infinite alternate;
+    animation: sleep-effect 2s ease-in-out infinite alternate;
+}
+
+
+
+@-webkit-keyframes sleep-effect {
+    from {
+        -webkit-transform: translateX(10%) rotateZ(-7deg);
+        transform: translateX(6%) rotateZ(-7deg);
+    }
+    to {
+        -webkit-transform: translateX(10%) rotateZ(7deg);
+        transform: translateX(6%) rotateZ(7deg);
+    }
+}
+@keyframes sleep-effect {
+    from {
+        -webkit-transform: translateX(-10%) rotateZ(-7deg);
+        transform: translateX(6%) rotateZ(-7deg);
+    }
+    to {
+        -webkit-transform: translateX(10%) rotateZ(7deg);
+        transform: translateX(6%) rotateZ(7deg);
+    }
+}  

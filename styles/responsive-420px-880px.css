@@ -1,0 +1,106 @@
+@media only screen and (max-width: 880px) and (min-width: 420px) {
+    nav {
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+    .nav-links {
+        margin-top: 50px;
+        width:90%;
+        margin-left: 8%;
+        margin-bottom: 15px;
+    }
+    .nav-btn {
+        display: none;
+    }
+
+    .buttons {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-btn {
+        margin-top: 10px;
+    }
+} 
+
+@media only screen and (max-width: 920px) {
+    .home {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        text-align: center;
+    }
+    .buttons {
+        margin-bottom: 30px;
+    }
+    .home-img img {
+        width: 80%;
+    }
+} 
+
+@media only screen and (max-width: 770px) {
+    .container {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .about-img img {
+        width: 200px;
+    }
+    .about-text {
+        margin: 1px;
+    }
+    .about-text .about-title {
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+    .about-text .border {
+        width: 12rem;
+        height: 5px;
+        margin-bottom: 3.4rem;
+    }
+    
+    #options header h2 {
+        font-size: 1.8rem;
+    }
+    #options header .border {
+        width: 20rem;
+    }
+
+    .cards {    
+        margin: 0 auto;
+        width: 90%;
+        -ms-grid-columns: minmax(14rem, 1fr) [auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        grid-gap: 2rem;
+    }
+      .cards .card h3 {
+        font-size: 1rem;
+    } 
+      .cards .card p {
+        color:#192a56;
+    }
+} 
